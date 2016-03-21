@@ -1,0 +1,7 @@
+### show col names of a table
+DESCRIBE table_name
+
+### select top 100 rows
+select col_name
+from table_name
+where rownum <= 100 and col_name is not null;
